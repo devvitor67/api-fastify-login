@@ -17,7 +17,7 @@ app.register(loginRoute)
 app.register(protectedRoute)
 app.register(healthRoute)
 
-app.listen({ port: 3333 }, error => {
+app.listen({ port: 3333, host: '0.0.0.0' }, error => {
     if (error) throw error
     console.log("Servidor on-line 🟢")
 })
