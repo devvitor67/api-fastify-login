@@ -25,6 +25,7 @@ API simples com Fastify, Prisma, SQLite e JWT para autenticação de usuários.
 - **POST /login**: Autenticação de usuário.
 - **POST /register**: Registro de novo usuário.
 - **GET /protected**: Obtenção da página protegida e do usuário autenticado.
+- **GET /health**: Obtenção do status da API
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
