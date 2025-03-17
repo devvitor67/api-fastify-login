@@ -1,0 +1,20 @@
+{
+  "name": "api-login-ts",
+  "version": "1.0.0",
+  "description": "API para controle simples de fluxo de autenticação de usuários, com banco de dados em memória",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Vitor Felicio de Souza Silva",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/jwt": "^9.1.0",
+    "@prisma/client": "^6.5.0",
+    "bcrypt": "^5.1.1",
+    "fastify": "^5.2.1",
+    "prisma": "^6.5.0"
+  }
+}
